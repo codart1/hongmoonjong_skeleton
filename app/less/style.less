@@ -1,23 +1,27 @@
 @font-face {
   font-family: 'NanumBarumGothic';
-  src: url('fonts/NanumBarunGothic.eot'); /* IE9 Compat Modes */
-  src: url('fonts/NanumBarunGothic.woff') format('woff'), 
-       url('fonts/NanumBarunGothic.ttf')  format('truetype'),
+  src: url('/styles/fonts/NanumBarunGothic.eot'); /* IE9 Compat Modes */
+  src: url('/styles/fonts/NanumBarunGothic.woff') format('woff'), 
+       url('/styles/fonts/NanumBarunGothic.ttf')  format('truetype'),
 }
 
 @font-face {
   font-family: 'NanumGothic';
   src: url('/styles/fonts/NanumGothic.eot'); /* IE9 Compat Modes */
-  src: url('/styles/NanumGothic.woff') format('woff'), 
-       url('/styles/NanumGothic.ttf')  format('truetype'),
+  src: url('/styles/fonts/NanumGothic.woff') format('woff'), 
+       url('/styles/fonts/NanumGothic.ttf')  format('truetype'),
 }
 
 body {
 	font-family: 'NanumGothic', Helvetica, sans-serif;
 }
 
-h1 {font-size: 36pt;}
-h3 {font-size: 16pt;}
+h1 {font-size: 30pt;}
+h3 {font-size: 12pt;}
+
+h1, h2, h3 {
+	letter-spacing: -2;
+}
 
 #container {
 	width: 100%;
@@ -82,7 +86,14 @@ h3 {font-size: 16pt;}
 		.title-container {
 			width: 490px; height: 190px; 
 			top: 110px; left: 230px;
-			background: green;
+			// background: green;
+		}
+
+		.button {
+			padding: 10px 30px;
+			background: #da312f;
+			color: #fbb4af;
+			display: inline-block;
 		}
 	}
 }
