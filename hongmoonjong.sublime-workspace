@@ -1,0 +1,389 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dele",
+				"deleteUrl"
+			],
+			[
+				"sav",
+				"saveOrUpdateUrl"
+			],
+			[
+				"cu",
+				"currentPage"
+			],
+			[
+				"b",
+				"border-spacing"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"co",
+				"columns"
+			],
+			[
+				"re",
+				"responseData"
+			],
+			[
+				"part",
+				"parent"
+			],
+			[
+				"ro",
+				"rows"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"c",
+				"counter"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"init",
+				"initSort"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"l",
+				"lighten(color, 10%)"
+			],
+			[
+				"fi",
+				"filteredArray"
+			],
+			[
+				"get",
+				"getPage"
+			],
+			[
+				"t",
+				"target"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"la",
+				"lastPage"
+			],
+			[
+				"pa",
+				"pageNumber"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"de",
+				"defaultAdapter"
+			],
+			[
+				"on",
+				"onNext"
+			],
+			[
+				"a",
+				"alert"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 9465,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"selected_items":
+		[
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 174.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/projects/hongmoonjong_site/hongmoonjong_skeleton/dist/index.html",
+		"/C/Users/Admin3/Desktop/hospital_search_respone.json",
+		"/C/Users/Admin3/Dropbox/Work lab/colr/Gruntfile.js",
+		"/C/Users/Admin3/Dropbox/Work lab/colr/docs/html/index.html",
+		"/C/Users/Admin3/Dropbox/Work lab/table_angular/app/jade/index.jade",
+		"/C/Users/Admin3/Dropbox/Work lab/table_angular/app/jade/layouts/master.jade",
+		"/C/Users/Admin3/Dropbox/Work lab/table_angular/bower.json",
+		"/C/Users/Admin3/Dropbox/Work lab/colr/docs/jade/index.jade",
+		"/C/Users/Admin3/Dropbox/Work lab/colr/app/generator/grid/grid.json",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/codart-assets/jade-includes/adapter.jade",
+		"/C/Users/Admin3/Dropbox/Work lab/colr/app/generator/grid/grid.html",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/codart-assets/demo.table.jade",
+		"/C/Users/Admin3/Dropbox/Work lab/colr/app/generator/renderdata/grid.json",
+		"/C/Users/Admin3/Dropbox/Work lab/colr/app/less/imports/colr-grid.less",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/codart-assets/demo.table.html",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/codart-assets/renderdata/table.json",
+		"/C/Users/Admin3/Dropbox/Work lab/colr/.jshintrc",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/table.html",
+		"/C/Users/Admin3/Dropbox/Work lab/colr/dist/index.html",
+		"/C/Users/Admin3/Dropbox/Work lab/colr/dist/demo/grid.html",
+		"/C/Users/Admin3/Dropbox/Work lab/colr/app/jade/home.jade",
+		"/C/Users/Admin3/Dropbox/Work lab/colr/app/index.html",
+		"/C/Users/Admin3/Dropbox/Work lab/colr/bower.json",
+		"/C/Users/Admin3/Dropbox/Work lab/colr/app/less/browsehappy.less",
+		"/C/Users/Admin3/Dropbox/Work lab/colr/test/spec/test.js",
+		"/C/Users/Admin3/Dropbox/Work lab/colr/dist/styles/9c307a9d.vendor.css",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/codart-assets/jade-includes/master_page.jade",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/codart-assets/render.bat",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/codart-assets/demo.circular-progress-bar.jade",
+		"/D/demo.table.html",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/codart-assets/demo.circular-progress-bar.html",
+		"/C/Users/Admin3/Dropbox/Work lab/LordOfGalaxy/GruntFile.js",
+		"/C/Users/Admin3/Dropbox/Work lab/CDToys/src/main.js",
+		"/C/Users/Admin3/Dropbox/Work lab/CDToys/GruntFile.js",
+		"/C/Users/Admin3/Dropbox/Work lab/CDToys/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js",
+		"/C/Users/Admin3/Dropbox/Work lab/CDToys/bower_components/bootstrap/.bower.json",
+		"/C/Users/Admin3/Dropbox/Work lab/CDToys/bower_components/fontawesome/.bower.json",
+		"/C/Users/Admin3/Dropbox/Work lab/CDToys/package.json",
+		"/C/Users/Admin3/Dropbox/Work lab/LordOfGalaxy/package.json",
+		"/C/Users/Admin3/Dropbox/Work lab/CDToys/bower_components/progressbar.js/package.json",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/codart-assets/js/codart-assets.js",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/codart-assets/js/circular-progress-bar.js",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/codart-assets/less/codart_circular_progress_bar.less",
+		"/C/Users/Admin3/Dropbox/Work lab/CDToys/bower_components/progressbar.js/local-dev/index.html",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/codart-assets/jade-includes/header.jade",
+		"/C/xampp/htdocs/test/test_save_table.php",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/prepros.cfg",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/codart-assets/css/codart_assets (ManhDT's conflicted copy 2015-02-10).css",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/codart-assets/css/codart_assets.css",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/codart-assets/less/codart_table.less",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/codart-assets/table.html",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/codart-assets/table.jade",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/codart-assets/demo-table.html",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/data/table_page11.json",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/partial/table.partial.html",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/less/codart_assets.less",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/css/codart_assets.css",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/js/table2.js",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/js/table.js",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/js/angular.min.js",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/js/main.js",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/index.html",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/css/simple_table.css",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/data/filtered/cake.json",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/data/filtered/candy.json",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/data/table_page1.json",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/data/table_page3.json",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/custom-directive.html",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/js/custom_directive.js",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/js/blink_button.js",
+		"/C/Users/Admin3/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Admin3/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Admin3/Dropbox/Work lab/TestAngular/index.html.txt"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"htmlmin",
+			"registerDe",
+			"\"},\n",
+			"\\",
+			"'",
+			"\"",
+			"cd",
+			"filterArrayWithKeyword",
+			"\"",
+			"copy",
+			"build",
+			"\"",
+			"replace",
+			"circle",
+			"headers",
+			"getPage",
+			"currentRowToUpdate",
+			"setRowToUpdate",
+			"add-new",
+			"Thêm",
+			"candy"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/",
+			"\"",
+			"'",
+			"colrs",
+			"'",
+			"circlePercent",
+			"options",
+			"currentRowToPerformAction",
+			"add-new-or-update",
+			"cake"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 9465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9328,
+								9328
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6470.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

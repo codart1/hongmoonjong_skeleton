@@ -45,12 +45,20 @@ module.exports = function (grunt) {
         files: ['test/spec/{,*/}*.js'],
         tasks: ['test:watch']
       },
+      less: {
+        files: './app/less/**/*.less',
+        tasks: ['less']
+      },
       gruntfile: {
         files: ['Gruntfile.js']
       },
       styles: {
         files: ['<%= config.app %>/styles/{,*/}*.css'],
         tasks: ['newer:copy:styles', 'autoprefixer']
+      },
+      jade: {
+        files: ['./app/jade/**/*.jade'],
+        tasks: ['jade']
       },
       livereload: {
         options: {
@@ -61,6 +69,36 @@ module.exports = function (grunt) {
           '.tmp/styles/{,*/}*.css',
           '<%= config.app %>/images/{,*/}*'
         ]
+      }
+    },
+
+    //jade
+    jade: {
+      compile: {
+        options: {
+          client: false,
+          pretty: true
+        },
+        files: [ {
+          cwd: './app/jade',
+          src: ['**/*.jade', '!layouts/**', '!includes/**'],
+          dest: './app',
+          expand: true,
+          ext: '.html'
+        } ]
+      }
+    },
+
+    //compile less files
+    less: {
+      development: {
+        options: {
+            rootpath: './app/',
+            paths: ['less/imports']
+        },
+        files: {
+            './app/styles/style.css': './app/less/style.less'
+        }
       }
     },
 
@@ -79,6 +117,7 @@ module.exports = function (grunt) {
             return [
               connect.static('.tmp'),
               connect().use('/bower_components', connect.static('./bower_components')),
+              connect().use('/libs', connect.static('./libs')),
               connect.static(config.app)
             ];
           }
@@ -338,6 +377,8 @@ module.exports = function (grunt) {
     }
 
     grunt.task.run([
+      'less',
+      'jade',
       'clean:server',
       'wiredep',
       'concurrent:server',
@@ -368,6 +409,8 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('build', [
+    'less',
+    'jade',
     'clean:dist',
     'wiredep',
     'useminPrepare',
@@ -379,7 +422,7 @@ module.exports = function (grunt) {
     'copy:dist',
     'rev',
     'usemin',
-    // 'htmlmin'
+    'htmlmin'
   ]);
 
   grunt.registerTask('default', [

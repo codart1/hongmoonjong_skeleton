@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'NanumBarumGothic';
+  src: url('fonts/NanumBarunGothic.eot'); /* IE9 Compat Modes */
+  src: url('fonts/NanumBarunGothic.woff') format('woff'), 
+       url('fonts/NanumBarunGothic.ttf')  format('truetype'),
+}
+
+@font-face {
+  font-family: 'NanumGothic';
+  src: url('/styles/fonts/NanumGothic.eot'); /* IE9 Compat Modes */
+  src: url('/styles/NanumGothic.woff') format('woff'), 
+       url('/styles/NanumGothic.ttf')  format('truetype'),
+}
+
+body {
+	font-family: 'NanumGothic', Helvetica, sans-serif;
+}
+
+h1 {font-size: 36pt;}
+h3 {font-size: 16pt;}
+
+#container {
+	width: 100%;
+	min-height: 400px;
+
+	.uni-width {
+		width: 950px;
+		margin: 0 auto;
+	}
+
+	#top-most-bar {
+		background: #414141;
+		color: white;
+		font-size: 10pt;
+		letter-spacing: -2;
+
+		.uni-width { padding: 8px 0 8px 0; }
+	}
+
+	#nav-bar {
+		background: white;
+		height: 80px;
+		color: #414141;
+		
+		.uni-width { position: relative;}
+
+		&-logo {
+			position: absolute;
+			top: 14px;
+		}
+
+		&-nav {
+			position: absolute;
+			top: 32px;
+			right: 0px;
+		}
+	}
+
+	#slider {
+		// height: 517px;
+		// background: blue;
+	}
+
+	#person {
+		height: 300px;
+		// background: green;
+
+		.uni-width { position: relative; }
+
+		.block1, .block2, .block3, .block4, .avar,
+		.title-container {
+			position: absolute;
+		}
+
+		.block1 { top:0px; }
+		.block2 { top: 150px;}
+		.block3 { top: 0px; right: 0px;}
+		.block4 { top: 150px; right: 0px;}
+
+		.avar {top:-110px; left: 370px;}
+
+		.title-container {
+			width: 490px; height: 190px; 
+			top: 110px; left: 230px;
+			background: green;
+		}
+	}
+}
+
+// OVERIDE BX SLIDER STYLES:
+.bx-wrapper {
+	border: none;
+	margin: 0;
+}
+.bx-pager.bx-default-pager {
+    position: absolute;
+    top: 350px;
+    z-index: 1000;
+}
+
+
+
