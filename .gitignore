@@ -5,3 +5,5 @@ dist
 .tmp
 
 bower_components
+
+dist

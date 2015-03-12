@@ -104,6 +104,10 @@ h3 {
   color: #fbb4af;
   display: inline-block;
 }
+#container #social {
+  height: 60px;
+  background: #ededed;
+}
 .bx-wrapper {
   border: none;
   margin: 0;
