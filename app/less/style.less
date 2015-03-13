@@ -27,6 +27,8 @@ h1, h2, h3 {
 #container {
 	width: 100%;
 	min-height: 400px;
+	// overflow-y: hidden;
+	// position: absolute;
 
 	.uni-width {
 		width: 950px;
@@ -63,12 +65,12 @@ h1, h2, h3 {
 
 	#slider {
 		position: relative;
-		// height: 517px;
+		// min-width: 1920px;
 		// background: blue;
 		.slogan {
 			position: absolute;
 			top: 0px; text-align: center;
-			width: 100%; padding-top: 50px;
+			width: 100%; padding-top: 114px;
 			z-index: 1000;
 		}
 	}
@@ -89,7 +91,7 @@ h1, h2, h3 {
 		.block3 { top: 0px; right: 0px;}
 		.block4 { top: 150px; right: 0px;}
 
-		.avar {top:-110px; left: 370px;}
+		.avar {top:-110px; left: 370px; z-index: 1000;}
 
 		.title-container {
 			width: 490px; height: 190px; 
@@ -231,6 +233,21 @@ h1, h2, h3 {
     top: 350px;
     z-index: 1000;
 }
+.bx-pager-item a {
+	background: url("/images/main/slide_bt.png") !important;
+	width: 12px !important; height: 12px !important;
+}
+.bx-pager-link.active { background: url("/images/main/slide_bt_on.png") !important; }
+.bx-prev, .bx-next {width: 54px !important; height: 54px !important}
+.bx-prev { 
+	background: url("/images/main/slide_left_bt.png") !important; 
+	left: 25% !important;
+}
+.bx-next { 
+	background: url("/images/main/slide_right_bt.png") !important; 
+	right: 25% !important;
+}
+// .bx-controls-direction { width: 950px !important; }
 
 
 

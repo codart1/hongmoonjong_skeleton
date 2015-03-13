@@ -1,6 +1,9 @@
 'use strict';
 $(document).ready(function(){
   $('.bxslider').bxSlider({
-  	responsive: false
+  	responsive: true,
+  	mode: "fade",
+  	auto: true,
+  	pause: 5000
   });
 });

@@ -69,7 +69,7 @@ h3 {
   top: 0px;
   text-align: center;
   width: 100%;
-  padding-top: 50px;
+  padding-top: 114px;
   z-index: 1000;
 }
 #container #person {
@@ -103,6 +103,7 @@ h3 {
 #container #person .avar {
   top: -110px;
   left: 370px;
+  z-index: 1000;
 }
 #container #person .title-container {
   width: 490px;
@@ -217,4 +218,25 @@ h3 {
   position: absolute;
   top: 350px;
   z-index: 1000;
+}
+.bx-pager-item a {
+  background: url("/images/main/slide_bt.png") !important;
+  width: 12px !important;
+  height: 12px !important;
+}
+.bx-pager-link.active {
+  background: url("/images/main/slide_bt_on.png") !important;
+}
+.bx-prev,
+.bx-next {
+  width: 54px !important;
+  height: 54px !important;
+}
+.bx-prev {
+  background: url("/images/main/slide_left_bt.png") !important;
+  left: 25% !important;
+}
+.bx-next {
+  background: url("/images/main/slide_right_bt.png") !important;
+  right: 25% !important;
 }
