@@ -61,6 +61,17 @@ h3 {
   top: 32px;
   right: 0px;
 }
+#container #slider {
+  position: relative;
+}
+#container #slider .slogan {
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  width: 100%;
+  padding-top: 50px;
+  z-index: 1000;
+}
 #container #person {
   height: 300px;
 }
@@ -140,6 +151,36 @@ h3 {
   margin: 0;
   padding-bottom: 85px;
 }
+#container #thinking .thinking {
+  padding-bottom: 130px;
+}
+#container #thinking .thinking-title {
+  padding: 36px 0 36px 0;
+}
+#container #thinking .thinking-item-label,
+#container #thinking .thinking-item-body {
+  padding: 0px;
+}
+#container #thinking .thinking-item-label {
+  font-size: 18px;
+}
+#container #thinking .thinking-item-body {
+  font-size: 13px;
+}
+#container #thinking .thinking-item p {
+  margin: 0;
+}
+#container #first-footer {
+  border-top: 1px solid #888888;
+}
+#container #first-footer .first-footer-slogan {
+  margin-top: 50px;
+}
+#container #second-footer {
+  background: #414141;
+  padding: 30px 0 30px 0;
+  color: white;
+}
 #container .article-block {
   border: 1px solid #a4a3a3;
   padding: 0;
@@ -157,8 +198,16 @@ h3 {
 #container .article-block-content p {
   font-size: 10pt;
 }
-.article-block + .article-block {
+#container .article-block + .article-block {
   margin-left: 10px;
+}
+#container .thinking-item {
+  border: 1px solid #888888;
+  margin: 0;
+  padding: 20px 10px;
+}
+#container .thinking-item + .thinking-item {
+  margin-top: 22px;
 }
 .bx-wrapper {
   border: none;
