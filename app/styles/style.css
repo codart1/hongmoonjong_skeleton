@@ -14,6 +14,7 @@
 }
 body {
   font-family: 'NanumGothic', Helvetica, sans-serif;
+  letter-spacing: -2;
 }
 h1 {
   font-size: 30pt;
@@ -107,6 +108,57 @@ h3 {
 #container #social {
   height: 60px;
   background: #ededed;
+}
+#container #social .social-container {
+  overflow: auto;
+  position: relative;
+}
+#container #social .social-icons {
+  margin-top: 8px;
+}
+#container #social .social-icons img + img {
+  margin-left: 45px;
+}
+#container #social .title {
+  position: absolute;
+  top: 0px;
+}
+#container #activities .activities-title {
+  padding: 52px 0 52px 0;
+}
+#container #activities .activities-articles {
+  margin: 0;
+  padding-bottom: 85px;
+}
+#container #news {
+  background: #ededed;
+}
+#container #news .news-title {
+  padding: 34px 0 34px 0;
+}
+#container #news .news-articles {
+  margin: 0;
+  padding-bottom: 85px;
+}
+#container .article-block {
+  border: 1px solid #a4a3a3;
+  padding: 0;
+  overflow: hidden;
+  height: 400px;
+  width: 310px;
+}
+#container .article-block-content {
+  padding: 20px 10px 32px 10px;
+}
+#container .article-block-content-title {
+  font-size: 18pt;
+  height: 60px;
+}
+#container .article-block-content p {
+  font-size: 10pt;
+}
+.article-block + .article-block {
+  margin-left: 10px;
 }
 .bx-wrapper {
   border: none;
